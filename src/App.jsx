@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowDown, BookOpen, Github, Menu, X } from 'lucide-react'
+import { ArrowDown, BookOpen, Code2, Menu, X } from 'lucide-react'
 import { ClassicalLab, ComputingLab, QuantumLab, ShorLab } from './components/Labs'
 import { modules, sources } from './data/content'
 
@@ -40,7 +40,7 @@ export default function App() {
           <a href="#journey" onClick={() => setMenuOpen(false)}>Learning path</a>
           <a href="#lab" onClick={() => setMenuOpen(false)}>Lab</a>
           <a href="#sources" onClick={() => setMenuOpen(false)}>Sources</a>
-          <a className="github-link" href="https://github.com/rifqironanda/computing_and_quantum" target="_blank" rel="noreferrer"><Github size={16} /> GitHub</a>
+          <a className="github-link" href="https://github.com/rifqironanda/computing_and_quantum" target="_blank" rel="noreferrer"><Code2 size={16} /> GitHub</a>
         </nav>
         <button className="menu-button" onClick={() => setMenuOpen((value) => !value)} aria-label="Buka menu">
           {menuOpen ? <X /> : <Menu />}
