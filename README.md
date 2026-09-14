@@ -13,6 +13,7 @@ Aplikasi React interaktif berbahasa Indonesia untuk membangun pemahaman bertahap
 
 ```bash
 npm install
+npm test
 npm run dev
 ```
 
@@ -22,6 +23,10 @@ Build production:
 npm run build
 npm run preview
 ```
+
+## Dokumentasi pembelajaran
+
+- [Panduan pengujian Shor's Algorithm](docs/shor-testing-guide.md) — penjelasan alur matematika, lima unit test, contoh N = 15, dan batasan simulasi.
 
 ## Struktur
 
