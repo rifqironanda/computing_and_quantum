@@ -1,5 +1,13 @@
 # Qubit Trail — Classical to Quantum
 
+## Baru: Python + Qiskit benchmark
+
+Panel Shor kini mencakup backend quantum circuit simulator dan benchmark klasik
+hingga N = 999.999.999, dengan timeout 120 detik per metode.
+Qiskit dibatasi N ≤ 35; input lebih besar menampilkan resource limit, bukan waktu palsu.
+[Panduan menjalankan backend dan membaca benchmark](docs/qiskit-benchmark.md).
+Dokumentasi simulasi JS di bawah tetap berlaku untuk panel lama.
+
 Aplikasi React interaktif berbahasa Indonesia untuk membangun pemahaman bertahap:
 
 1. **Classical bits** — tegangan, bit, binary, dan logic gate.

@@ -1,5 +1,8 @@
 # Dokumentasi Pengujian Shor's Algorithm
 
+> Lingkup dokumen ini: simulasi JavaScript lama. Untuk backend quantum circuit Qiskit
+> yang sekarang tersedia, baca [panduan benchmark](qiskit-benchmark.md).
+
 Dokumen ini menjelaskan apa yang diuji oleh aplikasi, bagaimana perhitungannya bekerja, dan bagaimana membaca hasil pengujian tanpa harus memahami seluruh kode JavaScript terlebih dahulu.
 
 ## 1. Hal terpenting yang perlu dipahami

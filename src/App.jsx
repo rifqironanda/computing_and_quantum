@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowDown, BookOpen, Code2, Menu, X } from 'lucide-react'
 import { ClassicalLab, ComputingLab, QuantumLab, ShorLab } from './components/Labs'
 import { modules, sources } from './data/content'
+import Benchmark from './components/Benchmark'
 
 const labs = {
   classical: ClassicalLab,
@@ -107,6 +108,7 @@ export default function App() {
             <span>{modules[activeIndex].label}</span>
           </div>
           <ActiveLab />
+          {active === 'shor' && <Benchmark />}
           <button className="next-module" onClick={next}>
             <span>{activeIndex === modules.length - 1 ? 'Kembali ke awal' : 'Modul berikutnya'}</span>
             <strong>{modules[(activeIndex + 1) % modules.length].label}</strong>
